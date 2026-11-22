@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>HddScan</AssemblyName>
+    <RootNamespace>HddScan</RootNamespace>
+    <Product>HDD-Scan</Product>
+    <Company>Devdee</Company>
+    <Version>1.0.0</Version>
+    <Description>HDD-Scan — ดูว่าพื้นที่ดิสก์หายไปไหน</Description>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+</Project>
